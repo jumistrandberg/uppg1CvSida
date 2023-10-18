@@ -5,8 +5,19 @@ main {
 }
 article {
     width: 80%;
+    margin-bottom: 15%;
 }
 
 p {
     line-height: 2rem;
+}
+
+.cv-item-container {
+    margin-top: 15%;
+    border-top: 1px solid #ECA51B;
+    border-left: 1px solid #ECA51B;
+}
+
+.cv-item-container * {
+    padding: 0 5%;
 }

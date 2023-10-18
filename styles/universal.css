@@ -2,10 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #151922;; */
     background-color: #FBFAF5;
-    /* background-color: #efe8d8; */
-    /* background-color: #ebe0c6; */
     overflow-x: hidden;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
@@ -23,16 +20,13 @@ a {
 }
 
 .noise {
-    background-image: url(img/noise.png);
+    background-image: url(../img/noise.png);
 }
 
 button {
-
     border: 1px solid #151922;
     width: 40%;
     margin: 0 auto;
     padding: 1rem;
     background: none;
-
-
 }

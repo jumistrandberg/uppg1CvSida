@@ -198,6 +198,6 @@ dialog:not(:target):not([open]) {
 }
 
 .project-card-one {
-    background-image: url(img/blurry.JPG);
+    background-image: url(../img/blurry.JPG);
     background-size: cover;
 }
