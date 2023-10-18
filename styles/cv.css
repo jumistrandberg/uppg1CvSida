@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+article {
+    width: 80%;
+}
+
+p {
+    line-height: 2rem;
+}
