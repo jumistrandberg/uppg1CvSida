@@ -7,6 +7,7 @@ body {
     /* background-color: #efe8d8; */
     /* background-color: #ebe0c6; */
     overflow-x: hidden;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 .noise {
@@ -33,22 +34,24 @@ body {
     animation: gradient 25s linear infinite;
 }
 
-
-
 /* Profile */
 
 .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
+}
+
+.profile-dimension {
+    display: flex;
+    width: 90%;
 }
 
 .profile-img-section {
-    width: 90%;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
+    height: 50%;
 }
 
 .profile-img-section img {
@@ -64,7 +67,6 @@ body {
     padding: 0;
     margin: 0;
     font-family: "East Sea Dokdo", Arial, Helvetica, sans-serif;
-    /* writing-mode: vertical-rl; */
     letter-spacing: 12vw;
     position: absolute;
     font-size: 20vw;
@@ -78,7 +80,6 @@ h3 {
     padding: 0;
     padding-left: 1rem;
     margin: 0;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;  
     font-size: 4vw;
     letter-spacing: 3vw;
     position: absolute;
@@ -98,7 +99,6 @@ h1 {
     color: #151922;
     position: absolute;
     margin: 0 auto;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 8vw;
     text-transform: uppercase;
     align-self: center;
@@ -106,7 +106,50 @@ h1 {
     animation: slide-in 2s ease forwards;
 }
 
+.profile-about-section {
+    flex-direction: column;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
 
+.profile-about-section p {
+    margin: 1.5rem 0;
+}
+
+.to-cv-btn {
+    border: 1px solid #151922;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+    background: none;
+}
+
+.to-cv-btn a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #151922;
+}
+
+.to-cv-btn:hover {
+    cursor: pointer;
+    animation: expandBtn 800ms forwards;
+}
+
+@keyframes expandBtn {
+    0% {
+        width: 40%;
+    }
+
+    30% {
+        width: 20%
+    }
+
+    100% {
+        width: 100%;
+    }
+    
+}
 
 /* Dialog */
 dialog {
