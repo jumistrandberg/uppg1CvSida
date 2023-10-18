@@ -26,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    margin-bottom: 15%;
 }
 
 .profile-dimension {
@@ -153,9 +154,6 @@ dialog:not(:target):not([open]) {
     width: calc(50% - 5%);
 }
 
-/* .project-card h3,.project-card p {
-    margin: 0;
-} */
 
 .project-open-dialog {
     margin-top: auto;

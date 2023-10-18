@@ -30,3 +30,39 @@ button {
     padding: 1rem;
     background: none;
 }
+
+/* Footer  */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20% 0 5%;
+}
+
+/* Nav  */
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    padding: 0 0.5rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+nav ul a {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1rem;
+}
+
+.active-nav {
+    padding: 1px;
+    border-bottom: 2px solid #ECA51B;
+}
