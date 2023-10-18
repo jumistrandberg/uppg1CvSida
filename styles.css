@@ -2,7 +2,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #151922;
+    /* background-color: #151922;; */
+    background-color: #FBFAF5;
+    /* background-color: #efe8d8; */
+    /* background-color: #ebe0c6; */
+
+
     overflow-x: hidden;
 }
 
@@ -11,7 +16,7 @@ body {
 }
 
 .background-gradient {
-    border: 1px solid #151922;
+    /* border: 1px solid #151922; */
     max-width: 100%;
     height: 100%;
     position: relative;
@@ -30,91 +35,7 @@ body {
     animation: gradient 25s linear infinite;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 50% 0%;
-    }
 
-    5% {
-        background-position: 40% 10%;
-    }
-
-    10% {
-        background-position: 30% 20%;
-    }
-
-    15% {
-        background-position: 20% 30%;
-    }
-
-    20% {
-        background-position: 10% 40%;
-    }
-
-    25% {
-        background-position: 0% 50%;
-    }
-
-    30% {
-        background-position: 10% 60%;
-    }
-
-    35% {
-        background-position: 20% 70%;
-    }
-
-    40% {
-        background-position: 30% 80%;
-    }
-
-    45% {
-        background-position: 40% 90%;
-    }
-
-    50% {
-        background-position: 50% 100%;
-    }
-
-    55% {
-        background-position: 60% 90%;
-    }
-
-    60% {
-        background-position: 70% 80%;
-    }
-
-    65% {
-        background-position: 80% 70%;
-    }
-
-    70% {
-        background-position: 90% 60%;
-    }
-
-    75% {
-        background-position: 100% 50%;
-    }
-
-    80% {
-        background-position: 90% 40%;
-    }
-
-    85% {
-        background-position: 80% 30%;
-    }
-
-    90% {
-        background-position: 70% 20%;
-    }
-
-    95% {
-        background-position: 60% 10%;
-    }
-
-    100% {
-        background-position: 50% 0%;
-    }
-}
 
 
 nav {
