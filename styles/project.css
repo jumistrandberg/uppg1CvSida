@@ -1,5 +1,4 @@
 main {
-    border: 1px solid salmon;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +11,17 @@ main {
 .project-img-container {
     width: 90vw;
     height: 40vw;
-    background-image: url(../img/blurry.JPG);
+}
+
+.img-container-one {
+    background-image: url(../img/non-ness-one.png);
     background-size: cover;
+}
+
+h3 {
+    letter-spacing: 0.5rem;
+}
+.read-more {
+    font-weight: lighter;
+    text-decoration: underline;
 }
