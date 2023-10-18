@@ -142,10 +142,18 @@ dialog {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 70%;
+    color: #FBFAF5;
+    border: 2px solid #151922;
 }
 
 dialog:not(:target):not([open]) {
     display: none;
+}
+
+.dialog-img {
+    width: 100%;
+    height: auto;
 }
 
 /* Projects */
@@ -163,26 +171,48 @@ dialog:not(:target):not([open]) {
 }
 
 .project-card {
-    border: 2px solid #151922;
+    border: 2px solid #ECA51B;
     display: flex;
     flex-direction: column;
-    height: 50vw;
-    margin-top: 10px;
-    width: calc(50% - 8%);
+    height: 60vw;
+    margin-top: 10%;
+    width: calc(50% - 5%);
 }
 
-.project-card h3 {
+/* .project-card h3,.project-card p {
     margin: 0;
+} */
+
+.project-open-dialog {
+    margin-top: auto;
+    padding: 2% 5%;
 }
 
-.project-card, .project-card a, .project-card h3 {
-    color: #FBFAF5;
-    background-color: #151922;
-}
+.upper-text-container * {
+    margin: 0;
+    padding: 5% 3%;
 
+}
+.project-card,
+.project-card a,
+.project-card h3,
 .project-card p {
-    background-color: #151922;
+    color: #151922;
+    background-color: #FBFAF5;
 }
+
+.project-card a {
+    align-self: flex-end;
+}
+
+.projects-title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    border-top: 1px solid #ECA51B;
+    border-bottom: 1px solid #ECA51B ;
+}
+
 
 .project-open-dialog {
     margin-top: auto;
@@ -194,6 +224,6 @@ dialog:not(:target):not([open]) {
 }
 
 .project-card-one {
-    background-image: url(img/project1LongRead2.png);
+    background-image: url(img/blurry.JPG);
     background-size: cover;
 }
