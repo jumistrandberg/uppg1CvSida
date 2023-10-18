@@ -74,7 +74,7 @@ body {
     bottom: 2rem;
 }
 
-h3 {
+.deco-text {
     color: #ECA51B;
     opacity: 0.8;
     padding: 0;
@@ -170,6 +170,8 @@ dialog:not(:target):not([open]) {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
     height: 50vw;
     margin-top: 10px;
     border: 2px solid purple;
