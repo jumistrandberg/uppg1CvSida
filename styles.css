@@ -15,7 +15,7 @@ body {
 }
 
 .background-gradient {
-    /* border: 1px solid #151922; */
+    border: 0.1px solid #FBFAF5;
     max-width: 100%;
     height: 100%;
     position: relative;
@@ -131,12 +131,15 @@ h1 {
     color: #151922;
 }
 
-.to-cv-btn:hover {
+/* Move to Media  */
+/* .to-cv-btn:hover {
     cursor: pointer;
     animation: expandBtn 800ms forwards;
+} */
+
+.to-cv-btn:active {
+    border: 2px solid #ECA51B;
 }
-
-
 
 /* Dialog */
 dialog {
@@ -153,6 +156,8 @@ dialog:not(:target):not([open]) {
 
 /* Projects */
 .projects {
+    margin: 0 auto;
+    border: 1px solid salmon;
     display: flex;
     flex-direction: column;
 }
@@ -161,8 +166,17 @@ dialog:not(:target):not([open]) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-card {
+    height: 50vw;
+    margin-top: 10px;
     border: 2px solid purple;
+    width: calc(50% - 10px);
+}
+
+.project-card-one {
+    background-image: url(img/Untitled_Artwork.png);
+    background-size: cover;
 }
