@@ -5,98 +5,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jumi Strandberg</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font East Sea Dokdo  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <img src="" alt="letter J">
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+    <!-- <div class="background-gradient"> -->
+        <nav>
+            <ul>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+            </ul>
+        </nav>
 
-    <main>
-        <!-- Profile -->
-        <article class="profile">
-            <div class="profile-img-section">
-                <img src="" alt="picture of Jumi Strandberg">
-                <h1>Jumi Strandberg</h1>
-                <h3>이주미</h3>
-            </div>
+        <main>
+            <!-- Profile -->
+            <article class="profile">
 
-            <div class="profile-about-section">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur adipisci est
-                    voluptatibus. Ratione aperiam, impedit sunt eos ex, ullam accusantium inventore tempore nostrum,
-                    dicta quasi laudantium earum! Totam, itaque.</p>
-                <button type="button">
-                    <a href="">My CV</a>
-                </button>
-            </div>
-        </article>
+                <div class="profile-img-section background-gradient">
+                    <div class="profile-img-container">
+                        <img src="img/Untitled_Artwork 6.png" alt="picture of Jumi Strandberg">
+                        <p class="korean-name">이주미</p>
+                    </div>
+                    <div class="profile-text-container">
+                        <h1>Jumi Strandberg</h1>
+                    </div>
+                </div>
 
-        <article class="projects">
-            <h2>projects</h2>
-            <div class="project-card project-card-one">
-                <p>
-                    <a href="#dialog">Open dialog</a>
-                </p>
-                <dialog>
-                    <h3>Project1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#!">Close</a>
-                </dialog>
-            </div>
+                <div class="profile-about-section">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur adipisci est
+                        voluptatibus. Ratione aperiam, impedit sunt eos ex, ullam accusantium inventore tempore
+                        nostrum,
+                        dicta quasi laudantium earum! Totam, itaque.</p>
+                    <button type="button">
+                        <a href="">My CV</a>
+                    </button>
+                </div>
+            </article>
 
-            <div class="project-card project-card-two">
-                <p>
-                    <a href="#dialog">Open dialog</a>
-                </p>
-                <dialog>
-                    <h3>Project2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#!">Close</a>
-                </dialog>
-            </div>
+            <article class="projects">
 
-            <div class="project-card project-card-three">
-                <p>
-                    <a href="#dialog">Open dialog</a>
-                </p>
-                <dialog>
-                    <h3>Project3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#!">Close</a>
-                </dialog>
-            </div>
+                <div class="projects-title">
+                    <h2>projects</h2>
+                </div>
+                <!-- Modals test -->
+                <!-- <button class="button open-button">Open Modal</button>
 
-            <div class="project-card project-card-four">
-                <p>
-                    <a href="#dialog">Open dialog</a>
-                </p>
-                <dialog>
-                    <h3>Project4</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#!">Close</a>
-                </dialog>
-            </div>
-        </article>
+            <dialog class="modal">
+                <h3>TItle</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias laborum inventore animi quia sit quisquam impedit pariatur ducimus itaque? Cum vitae aut error corporis doloribus dignissimos non harum. Possimus.</p>
+                <button class="button close-button">Close modal</button>
+            </dialog> -->
+                <div class="project-card-container">
+                    <div class="project-card project-card-one">
+                        <p>
+                            <a href="#dialog1">Open dialog</a>
+                        </p>
 
-    </main>
+                        <dialog id="dialog1">
+                            <h3>Project1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
+                            <a href="#!">Close</a>
+                        </dialog>
+                    </div>
 
-    <footer>
-        <a href="#">LinkedIn</a>
-        <a href="">Email</a>
-        <a href="#">Github</a>
-    </footer>
+                    <div class="project-card project-card-two">
+                        <p>
+                            <a href="#dialog2">Open dialog</a>
+                        </p>
+                        <dialog id="dialog2">
+                            <h3>Project2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
+                            <a href="#!">Close</a>
+                        </dialog>
+                    </div>
 
+                    <div class="project-card project-card-three">
+                        <p>
+                            <a href="#dialog3">Open dialog</a>
+                        </p>
+                        <dialog id="dialog3">
+                            <h3>Project3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
+                            <a href="#!">Close</a>
+                        </dialog>
+                    </div>
+
+                    <div class="project-card project-card-four">
+                        <p>
+                            <a href="#dialog4">Open dialog</a>
+                        </p>
+                        <dialog id="dialog4">
+                            <h3>Project4</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </p>
+                            <a href="#!">Close</a>
+                        </dialog>
+                    </div>
+                </div>
+
+            </article>
+
+        </main>
+
+        <footer>
+            <a href="#">LinkedIn</a>
+            <a href="">Email</a>
+            <a href="#">Github</a>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
 </body>
 
 </html>
