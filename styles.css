@@ -6,8 +6,6 @@ body {
     background-color: #FBFAF5;
     /* background-color: #efe8d8; */
     /* background-color: #ebe0c6; */
-
-
     overflow-x: hidden;
 }
 
@@ -36,29 +34,6 @@ body {
 }
 
 
-
-
-nav {
-    border: 2px solid blue;
-    display: flex;
-}
-
-nav ul {
-    padding: 0 0.5rem;
-    width: 100%;
-    border: 2px solid hotpink;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10%;
-}
-
-nav ul a {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-transform: lowercase;
-    font-size: 1rem;
-}
 
 /* Profile */
 
@@ -132,17 +107,6 @@ h1 {
 }
 
 
-@keyframes slide-in {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
 
 /* Dialog */
 dialog {
