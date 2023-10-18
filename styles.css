@@ -125,12 +125,6 @@ h1 {
     background: none;
 }
 
-.to-cv-btn a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #151922;
-}
-
 /* Move to Media  */
 /* .to-cv-btn:hover {
     cursor: pointer;
@@ -157,7 +151,6 @@ dialog:not(:target):not([open]) {
 /* Projects */
 .projects {
     margin: 0 auto;
-    border: 1px solid salmon;
     display: flex;
     flex-direction: column;
 }
@@ -170,15 +163,38 @@ dialog:not(:target):not([open]) {
 }
 
 .project-card {
+    border: 2px solid #151922;
     display: flex;
     flex-direction: column;
     height: 50vw;
     margin-top: 10px;
-    border: 2px solid purple;
-    width: calc(50% - 10px);
+    padding: 3%;
+    width: calc(50% - 8%);
+}
+
+.project-card h3 {
+    margin: 0;
+}
+
+.project-card, .project-card a, .project-card h3 {
+    color: #FBFAF5;
+    background-color: #151922;
+}
+
+.project-card p {
+    background-color: #151922;
+}
+
+.project-open-dialog {
+    margin-top: auto;
+    text-decoration: underline;
+}
+
+.project-card-blur {
+    box-shadow: 20px 20px 100px #FBFAF5 inset;
 }
 
 .project-card-one {
-    background-image: url(img/Untitled_Artwork.png);
+    background-image: url(img/project1LongRead2.png);
     background-size: cover;
 }
