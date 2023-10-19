@@ -17,13 +17,20 @@ main {
 }
 
 .img-container-one {
-    background-image: url(../img/non-ness-one.png);
+    background-image: url(../img/nonesshome.png);
     background-size: cover;
 }
 
+
+.img-container-two {
+    background-image: url(../img/dealwithit-concept.png);
+    background-size: cover;
+}
 h3 {
     letter-spacing: 0.5rem;
 }
+
+
 .read-more {
     font-weight: lighter;
     text-decoration: underline;
@@ -32,6 +39,9 @@ h3 {
 
 /* Media Query */
 @media only screen and (min-width: 768px) {
+    .project-img-container:hover {
+        opacity: 0.5;
+    }
 
 }
 
