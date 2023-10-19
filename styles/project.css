@@ -30,6 +30,10 @@ main {
     background-image: url(../img/careerthread-logo.png);
 }
 
+.img-container-four {
+    background-image: url(../img/bistro-startes.png);
+}
+
 h3 {
     letter-spacing: 0.5rem;
 }
