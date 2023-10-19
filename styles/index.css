@@ -92,7 +92,7 @@
 }
 
 h1 {
-    display: hidden;
+    display: none;
 
 }
 
@@ -161,6 +161,12 @@ dialog:not(:target):not([open]) {
     width: calc(50% - 5%);
 }
 
+.project-link-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
 
 .project-open-dialog {
     margin-top: auto;
@@ -170,6 +176,7 @@ dialog:not(:target):not([open]) {
 .upper-text-container * {
     margin: 0;
     padding: 5% 3%;
+    font-size: 0.9rem;
 
 }
 
@@ -177,6 +184,7 @@ dialog:not(:target):not([open]) {
 .project-card a,
 .project-card h3,
 .project-card p {
+    padding: ;
     color: #151922;
     background-color: #FBFAF5;
 }
@@ -204,8 +212,8 @@ dialog:not(:target):not([open]) {
 }
 
 .project-card-one {
-    background-image: url(../img/blurry.JPG);
-    background-size: cover;
+    background-image: url(../img/non-ness-one.png);
+    background-size: contain;
 }
 
 /* Media Query */
@@ -242,6 +250,7 @@ dialog:not(:target):not([open]) {
     }
 
     h1 {
+        display: inline-block;
         letter-spacing: 1rem;
         font-size: 2rem;
         margin-top: 5%;
@@ -266,10 +275,7 @@ dialog:not(:target):not([open]) {
     cursor: pointer;
     animation: expandBtn 800ms forwards;
 }
-    .to-cv-btn:active {
-        border: 2px solid #ECA51B;
-    }
-
+ 
 
 /* Projects */
 
