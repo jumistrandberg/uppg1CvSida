@@ -46,6 +46,7 @@ nav {
     justify-content: center;
 }
 
+
 nav ul {
     padding: 0 0.5rem;
     width: 90%;
@@ -53,6 +54,7 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     gap: 10%;
+    list-style-type: none;
 }
 
 nav ul a {
