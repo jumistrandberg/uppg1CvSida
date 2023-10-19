@@ -14,18 +14,22 @@ main {
 .project-img-container {
     width: 90vw;
     height: 40vw;
+    background-size: cover;
 }
 
 .img-container-one {
     background-image: url(../img/nonesshome.png);
-    background-size: cover;
 }
 
 
 .img-container-two {
     background-image: url(../img/dealwithit-concept.png);
-    background-size: cover;
 }
+
+.img-container-three {
+    background-image: url(../img/careerthread-logo.png);
+}
+
 h3 {
     letter-spacing: 0.5rem;
 }
